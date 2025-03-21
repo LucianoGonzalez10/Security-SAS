@@ -1,25 +1,83 @@
+body{
+    width: 1441px;
+    height: 861px;
+    border: 1px black solid;
+    
+}
+
 #logo{
     width: 10%;
 }
 
-
-
-aside {
-    padding: 20px;
-}
-
-#seguridadFoto{
-    width: 20%;
+#seguridadImagen{
+    width: 60%;
 }
 
 ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
     background-color: #F1F1F1;
+    height: 89px;
     display: flex;    
     flex-direction: row;
 }
 
 li{
-    padding: 20px;
+    margin: 5px 0;
+    list-style: none;
+    padding: 40px;
     text-decoration: none;
+    margin-left: auto;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
 
+}
+
+
+span{
+    width: 390px;
+    height: 46px;
+    top: 197px;
+    left: 135px;
+    border-radius: 23px;
+    background-color: #F1F1F1;
+}
+h2{
+    width: 386px;
+    height: 16px;
+    top: 212px;
+    left: 156px;
+    color: #222222;
+}
+
+h1{
+    font-size: 90px;
+    line-height: 116px;
+    color: #222222;
+    font-family: 'Satoshi', sans-serif;
+}
+
+p{
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+
+}
+
+article{
+    width: 600px;
+    margin-bottom: 00px;
+}
+
+figure{
+    margin-left: 700px;
+}
+
+#fondoSeguridad{
+    width: 618px;
+    height: 117px;
+    background-color: #FFFF10;
+    border-radius: 418px;
 }
