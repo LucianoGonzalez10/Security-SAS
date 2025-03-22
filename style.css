@@ -38,15 +38,22 @@ li{
     font-family: "Poppins", sans-serif;
     color: #222222;
 }
+#homeTx{
+    color: #ffffff;
+}
 #homeLi{
-    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
     background-color: #222222;
     width: 81px;
-    height: 24px;
+    height: 33px;
     color: #ffffff;
     border-radius: 9px;
 }
 #parrafoC{
+    display: flex;
     background-color: #F1F1F1; 
     width: 324px;
     height: 46px;    
@@ -69,9 +76,11 @@ li{
 }
 
 h1, h2{
+    font-weight: 900;
     margin: 0;
     font-size: 90px;
     line-height: 116px;
+    letter-spacing: -1%;
     color: #222222;
     font-family: 'Satoshi', sans-serif;
 }
