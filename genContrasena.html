@@ -16,7 +16,7 @@
             <ul>        
                 <img src="./media/logoHenry.png" alt="" id="logo">
                 <div id="homeLi">
-                    <li id="homeTx">Home </li>
+                    <li id="homeTx"> <a id="aHome" href="index.html"> Home </a> </li>
                 </div>
                 <li>Generar contraseña</li>
                 <li>Caja Fuerte </li>
@@ -27,12 +27,14 @@
     </header>
     <main>
         <section>
-            <h1>Asistente De Seguridad</h1>
-            <p>Generador de contraseñas para usuarios</p>
+            <h1 class="asistTitulo">Asistente De Seguridad</h1>
+            <div id="generadorContenedor">
+                <p id="generadorParrafo">Generador de contraseñas para usuarios:</p>
+            </div>
         </section>
         <div id="formGen">
             <div class="formSec">
-                <p class="inputGen">Cantiad de caracteres deseados</p> <input type="number" id="inputCh1" min="3" max="10" placeholder="Longitud">
+                <p class="inputGen">Cantiad de caracteres deseados</p> <input type="number" class="inputCh" id="inputCh1" min="3" max="10" placeholder="Longitud">
             </div>
             <div class="formSec">
                 <p class="inputGen">¿Incluir caracteres especiales? </p><input class="inputCh" id="especiales" type="checkbox">
@@ -42,9 +44,10 @@
             </div>
             <div class="formSec">
                 <p class="inputGen">¿Incluir caracteres mayusculas? </p><input class="inputCh" id="mayusculas" type="checkbox">
-            </div>
+            </div>        
             <button id="generarButon"> Generar Contraseña</button>
-        </div>
+        </div>            
+
         
         <div id="resultado"></div>
 
